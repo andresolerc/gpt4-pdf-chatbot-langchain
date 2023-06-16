@@ -224,7 +224,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'What is this legal case about?'
+                        : 'What are the 5 key aspects you want to know about?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
